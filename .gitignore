@@ -1,0 +1,41 @@
+## Visual Studio / .NET Ignore Rules
+## ==================================
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio temporary files, caches, and user-specific configuration
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.dbmdl
+*.jfm
+*.launchSettings.json.user
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.docstates
+
+# Secrets & Environment variables
+appsettings.Production.json
+appsettings.*.local.json
+secrets.json
+
+# Local Uploaded Static Files (preserve directory structure but ignore local uploads)
+**/wwwroot/ProductsImages/*
+!**/wwwroot/ProductsImages/.gitkeep
+
+# Windows / OS temporary files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.DS_Store
